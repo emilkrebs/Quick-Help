@@ -1,10 +1,11 @@
 <div id="logo" align="center">
   <a href="https://github.com/emilkrebs/quick-help" target="_blank" rel="noopener noreferrer">
-	  <img width="128" alt="Quick Help Logo" src="https://user-images.githubusercontent.com/68400102/162855656-74c1b3af-2ad0-47cf-abe7-6fe4f4ef9133.svg">
+	  <img width="128" alt="Quick Help Logo" src="https://user-images.githubusercontent.com/68400102/162858336-54fabb53-5112-411d-84f8-82a0ec52408a.png">
 	</a>
 </div>
 
 # Quick Help
+
 With this you can look up your problems instantly or manual on the internet.
 
 ## Commands
