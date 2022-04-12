@@ -36,17 +36,3 @@ This extension contributes the following settings:
 None
 
 [Add Issue](https://github.com/emilkrebs/Quick-Help/issues/new)
-
-## Release Notes
-
-### 1.0.2
-
-Fixed Typo
-
-### 1.0.1
-
-Added a Icon to package.json
-
-### 1.0.0
-
-Release of Quick Help
