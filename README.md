@@ -14,6 +14,8 @@
 
 With this simple extension you can look up your problems instantly or manual on the internet.
 
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=EmilKrebs.quickhelp)
+
 ## Commands
 * `Search Online`: Search something up online.
 * `Quick Search`: Select an error and look it up.
