@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
 					openBrowser(value);
 			});
 	}));
-	context.subscriptions.push(vscode.commands.registerCommand('quickhelp quickSearch', () => {
+	context.subscriptions.push(vscode.commands.registerCommand('quickhelp.quickSearch', () => {
 		let allDiagnostics = vscode.languages.getDiagnostics();
 		let errorMessages: string[] = [];
 		let allErrorMessages: string[] = [];

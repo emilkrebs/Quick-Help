@@ -31,6 +31,10 @@ None
 
 ## Release Notes
 
+### 1.0.2
+
+Fixed Typo
+
 ### 1.0.1
 
 Added a Icon to package.json
