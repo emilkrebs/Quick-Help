@@ -1,9 +1,12 @@
 {
 	"name": "quickhelp",
 	"displayName": "QuickHelp",
-	"description": "",
+	"description": "Look up your problems. Fast.",
 	"version": "1.0.0",
 	"author": "Emil Krebs",
+	"publisher": "EmilKrebs",
+	"icon": "icon.png",
+	"repository": "https://github.com/emilkrebs/Quick-Help",
 	"engines": {
 		"vscode": "^1.66.0"
 	},
