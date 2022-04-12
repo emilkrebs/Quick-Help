@@ -6,7 +6,7 @@
 
 # Quick Help
 
-With this you can look up your problems instantly or manual on the internet.
+With this simple extension you can look up your problems instantly or manual on the internet.
 
 ## Commands
 * `Search Online`: Search something up online.
