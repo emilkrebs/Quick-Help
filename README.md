@@ -1,18 +1,18 @@
 <div id="logo" align="center">
   <a href="https://github.com/emilkrebs/quick-help" target="_blank" rel="noopener noreferrer">
-	  <img width="128" alt="Quick Help Logo" src="https://raw.githubusercontent.com/emilkrebs/Quick-Help/main/icon.png">
-	</a>
+    <img width="128" alt="Quick Help Logo" src="https://raw.githubusercontent.com/emilkrebs/Quick-Help/main/icon.png">
+  </a>
 </div>
 <br>
 <div id="badges" align="center">
   
    [![Build](https://github.com/emilkrebs/quick-help/actions/workflows/build.yml/badge.svg)](https://github.com/emilkrebs/quick-help/actions/workflows/build.yml)
-	
+  
 </div>
 
 # Quick Help
 
-With this simple extension you can look up your problems instantly or manual on the internet.
+With this simple extension, you can look up your problems instantly or manually on the internet.
 
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=EmilKrebs.quickhelp)
 
@@ -22,9 +22,10 @@ With this simple extension you can look up your problems instantly or manual on 
 ## Extension Settings
 This extension contributes the following settings:
 
-* `quickhelp.searchEngine`: The Search Engine you wan't to use.
+* `quickhelp.searchEngine`: The Search Engine you want to use.
 ( Google, DuckDuckGo, Bing, Ecosia, StackOverflow )
 
+* `quickhelp.searchPattern`: Your search pattern. Leave blank to use existing. Example: `https://de.wikipedia.org/wiki/{term}`
 
 ![Engine](https://user-images.githubusercontent.com/68400102/162857553-f062004f-92fc-4f14-80c8-d69a9688f779.png)
 
