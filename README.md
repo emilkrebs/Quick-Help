@@ -30,7 +30,9 @@ None
 
 ## Release Notes
 
+### 1.0.1
 
+Added a Icon to package.json
 
 ### 1.0.0
 
