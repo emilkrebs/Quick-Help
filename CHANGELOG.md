@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0
+
+### Added
+- Custom search pattern
+- Json for new search engines
+
+### Fixed
+- Grammar errors in Readme
 
 ## 1.0.2
 
