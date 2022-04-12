@@ -34,7 +34,7 @@
 			},
 			{
 				"command": "quickhelp.quickSearch",
-				"title": "Quick search for error"
+				"title": "Quick search"
 			}
 		]
 	},
