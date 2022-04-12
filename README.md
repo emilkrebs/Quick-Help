@@ -20,7 +20,7 @@ With this simple extension you can look up your problems instantly or manual on 
 ## Extension Settings
 This extension contributes the following settings:
 
-* `quickhelp.searchEngine`: The Search Engine you wan't to use.
+* `quickhelp.searchPattern`: The Search Engine you wan't to use.
 ( Google, DuckDuckGo, Bing, Ecosia, StackOverflow )
 
 

@@ -24,9 +24,22 @@
 			"properties": {
 				"quickhelp.searchEngine": {
 					"type": "string",
-					"enum": ["Google", "DuckDuckGo", "Bing", "Ecosia", "StackOverflow"],
 					"default": "Google",
-					"description": "The Search Engine you wan't to use."
+					"enum": ["Google", "DuckDuckGo", "Bing", "Ecosia", "StackOverflow"],
+					"description": "The Search Engine you want to use.",
+					"enumDescriptions": [
+						"",
+						"",
+						"",
+						"",
+						"Not a search engine but will also find solutions."
+					]
+				},
+				"quickhelp.searchPattern": {
+					"type": "string",
+					"maxLength": 2000,
+					"default":"",
+					"markdownDescription": "Your search pattern. Leave blank to use existing. Example: `https://de.wikipedia.org/wiki/{term}`"
 				}
 			}
 		},

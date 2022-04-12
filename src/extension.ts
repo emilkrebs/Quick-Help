@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { openBrowser } from './externalBrowser';
 
 export function activate(context: vscode.ExtensionContext) {
 	console.log('Quickhelp is now active!');
@@ -7,7 +8,7 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInputBox({ placeHolder: 'Search text', value: 'Search Term' })
 			.then((value) => {
 				if (value !== undefined)
-					openBrowser(value);
+				 openBrowser(value);
 			});
 	}));
 	context.subscriptions.push(vscode.commands.registerCommand('quickhelp.quickSearch', () => {
@@ -63,30 +64,3 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 export function deactivate() { }
-
-function openBrowser(term: string) {
-	const searchConfig = vscode.workspace.getConfiguration('quickhelp');
-	const searchEngine = searchConfig.get('searchEngine');
-	let searchQuery: string;
-	switch (searchEngine) {
-		case 'Google':
-			searchQuery = 'https://www.google.com/search?q=' + term;
-			break;
-		case 'DuckDuckGo':
-			searchQuery = 'https://www.duckduckgo.com/?q=' + term;
-			break;
-		case 'Ecosia':
-			searchQuery = 'https://www.ecosia.org/search?method=index&q=' + term;
-			break
-		case 'Bing':
-			searchQuery = 'https://www.bing.com/search?q=' + term;
-			break;
-		case 'StackOverflow':
-			searchQuery = 'https://stackoverflow.com/search?q=' + term;
-			break;
-		default:
-			searchQuery = 'https://www.google.com/search?q=' + term;
-			break;
-	}
-	vscode.env.openExternal(vscode.Uri.parse(searchQuery));
-}
