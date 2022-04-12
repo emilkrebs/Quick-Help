@@ -16,8 +16,12 @@ This extension contributes the following settings:
 * `quickhelp.searchEngine`: The Search Engine you wan't to use.
 ( Google, DuckDuckGo, Bing, Ecosia, StackOverflow )
 
+
+![Engine](https://user-images.githubusercontent.com/68400102/162857553-f062004f-92fc-4f14-80c8-d69a9688f779.png)
+
 ## Showcase
 ![ezgif-2-5117ba74a7](https://user-images.githubusercontent.com/68400102/162854829-005c2349-1c2f-4282-9089-5e32224277a2.gif)
+![ezgif-2-cf1000ec4b](https://user-images.githubusercontent.com/68400102/162856834-952c2db5-5fc6-4ad0-9f5f-2369f954ccfb.gif)
 
 ## Known Issues
 
