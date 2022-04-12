@@ -25,8 +25,9 @@ This extension contributes the following settings:
 ![ezgif-2-cf1000ec4b](https://user-images.githubusercontent.com/68400102/162856834-952c2db5-5fc6-4ad0-9f5f-2369f954ccfb.gif)
 
 ## Known Issues
-
 None
+
+[Add Issue](https://github.com/emilkrebs/Quick-Help/issues/new)
 
 ## Release Notes
 
