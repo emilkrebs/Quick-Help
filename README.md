@@ -6,7 +6,7 @@
 <br>
 <div id="badges" align="center">
   
-   [![Build](https://github.com/emilkrebs/quick-help/actions/workflows/build.yml/badge.svg)](https://github.com/emilkrebs/sound-bot/actions/workflows/build.yml)
+   [![Build](https://github.com/emilkrebs/quick-help/actions/workflows/build.yml/badge.svg)](https://github.com/emilkrebs/quick-help/actions/workflows/build.yml)
 	
 </div>
 
