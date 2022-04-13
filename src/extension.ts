@@ -1,14 +1,21 @@
+import * as fs from 'fs';
 import * as vscode from 'vscode';
-import { openBrowser } from './externalBrowser';
+import { ExternalBrowser } from './externalBrowser';
 
 export function activate(context: vscode.ExtensionContext) {
+	let externalBrowser: ExternalBrowser = new ExternalBrowser(context);
+
 	console.log('Quickhelp is now active!');
 
+	if (!fs.existsSync(context.globalStorageUri.fsPath)) {
+		fs.mkdirSync(context.globalStorageUri.fsPath, { recursive: true });
+	}
+	
 	context.subscriptions.push(vscode.commands.registerCommand('quickhelp.search', () => {
 		vscode.window.showInputBox({ placeHolder: 'Search text', value: 'Search Term' })
 			.then((value) => {
 				if (value !== undefined)
-				 openBrowser(value);
+				 externalBrowser.open(value);
 			});
 	}));
 	context.subscriptions.push(vscode.commands.registerCommand('quickhelp.quickSearch', () => {
@@ -49,18 +56,24 @@ export function activate(context: vscode.ExtensionContext) {
 
 		vscode.window.showQuickPick(errorMessages)
 			.then((selection) => {
-				if (selection == 'All...') {
+				if (selection === 'All...') {
 					vscode.window.showQuickPick(allErrorMessages)
 						.then((selection) => {
 							if (selection !== undefined)
-								openBrowser(selection);
+								externalBrowser.open(selection);
 						});
 				}
 				else if (selection !== undefined)
-					openBrowser(selection);
+					externalBrowser.open(selection);
 			});
 	})
 	);
 }
 
 export function deactivate() { }
+
+function copyFile(context: vscode.ExtensionContext, path: string, targetName: string){
+	if(!fs.existsSync(context.globalStorageUri.path + targetName)){
+		fs.copyFileSync(path,  context.globalStorageUri.path + targetName);
+	}
+}
