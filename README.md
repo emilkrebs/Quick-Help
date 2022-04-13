@@ -5,8 +5,12 @@
 </div>
 <br>
 <div id="badges" align="center">
-  
+
+  [![Issues](https://img.shields.io/github/issues/emilkrebs/Quick-Help)](https://github.com/emilkrebs/Quick-Help/issues)
+  [![Build Status](https://img.shields.io/github/workflow/status/emilkrebs/Quick-Help/Build)](https://github.com/emilkrebs/Quick-Help/actions)
+
 </div>
+<br>
 
 # Quick Help
 
