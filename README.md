@@ -8,6 +8,7 @@
 
   [![Issues](https://img.shields.io/github/issues/emilkrebs/Quick-Help)](https://github.com/emilkrebs/Quick-Help/issues)
   [![Build Status](https://img.shields.io/github/workflow/status/emilkrebs/Quick-Help/Build)](https://github.com/emilkrebs/Quick-Help/actions)
+  [![Version](https://img.shields.io/visual-studio-marketplace/v/EmilKrebs.quickhelp)](https://marketplace.visualstudio.com/items?itemName=EmilKrebs.quickhelp)
 
 </div>
 <br>
