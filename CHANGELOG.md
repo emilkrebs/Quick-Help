@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+### Added
+- Improved code so its easier to add new stugff
+
 ## 1.1.0
 
 ### Added

@@ -7,6 +7,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	console.log('Quickhelp is now active!');
 
+	// create storage directory
 	if (!fs.existsSync(context.globalStorageUri.fsPath)) {
 		fs.mkdirSync(context.globalStorageUri.fsPath, { recursive: true });
 	}
@@ -71,9 +72,3 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 export function deactivate() { }
-
-function copyFile(context: vscode.ExtensionContext, path: string, targetName: string){
-	if(!fs.existsSync(context.globalStorageUri.path + targetName)){
-		fs.copyFileSync(path,  context.globalStorageUri.path + targetName);
-	}
-}
