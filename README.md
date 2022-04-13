@@ -33,10 +33,12 @@ This extension contributes the following settings:
 ![Engine](https://user-images.githubusercontent.com/68400102/162857553-f062004f-92fc-4f14-80c8-d69a9688f779.png)
 
 ## Showcase
-![ezgif-2-5117ba74a7](https://user-images.githubusercontent.com/68400102/162854829-005c2349-1c2f-4282-9089-5e32224277a2.gif)
-![ezgif-2-cf1000ec4b](https://user-images.githubusercontent.com/68400102/162856834-952c2db5-5fc6-4ad0-9f5f-2369f954ccfb.gif)
+
+![Quick Search](https://user-images.githubusercontent.com/68400102/163287464-dc5f6b80-4b97-486d-a438-610b008043f2.gif)
+![Search Online](https://user-images.githubusercontent.com/68400102/163287926-b73067d0-e049-48e3-ad8c-d4490b8b693e.gif)
 
 ## Known Issues
+
 None
 
 [Add Issue](https://github.com/emilkrebs/Quick-Help/issues/new)
