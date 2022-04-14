@@ -11,14 +11,18 @@ export function activate(context: vscode.ExtensionContext) {
 	if (!fs.existsSync(context.globalStorageUri.fsPath)) {
 		fs.mkdirSync(context.globalStorageUri.fsPath, { recursive: true });
 	}
-	
+
 	context.subscriptions.push(vscode.commands.registerCommand('quickhelp.search', () => {
-		vscode.window.showInputBox({ placeHolder: 'Search text', value: 'Search Term' })
+		var editor = vscode.window.activeTextEditor;
+		let selection = '';
+		if (editor !== undefined) { selection = editor.document.getText(editor.selection); }
+
+		vscode.window.showInputBox({ placeHolder: 'Search text', value: selection })
 			.then((value) => {
-				if (value !== undefined)
-				 externalBrowser.open(value);
+				if (value !== undefined) { externalBrowser.open(value); }
 			});
 	}));
+
 	context.subscriptions.push(vscode.commands.registerCommand('quickhelp.quickSearch', () => {
 		let allDiagnostics = vscode.languages.getDiagnostics();
 		let errorMessages: string[] = [];
@@ -60,15 +64,12 @@ export function activate(context: vscode.ExtensionContext) {
 				if (selection === 'All...') {
 					vscode.window.showQuickPick(allErrorMessages)
 						.then((selection) => {
-							if (selection !== undefined)
-								externalBrowser.open(selection);
+							if (selection !== undefined) { externalBrowser.open(selection); }
 						});
 				}
-				else if (selection !== undefined)
-					externalBrowser.open(selection);
+				else if (selection !== undefined) { externalBrowser.open(selection); }
 			});
-	})
-	);
+	}));
 }
 
 export function deactivate() { }

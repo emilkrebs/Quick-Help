@@ -32,7 +32,7 @@
 						"",
 						"",
 						"",
-						"Not a search engine but will also find you solutions."
+						"Not a search engine but will also help you finding solutions."
 					]
 				},
 				"quickhelp.searchPattern": {
@@ -40,8 +40,22 @@
 					"maxLength": 2000,
 					"default":"",
 					"markdownDescription": "Your search pattern. Leave blank to use existing. Example: `https://de.wikipedia.org/w/index.php?search={term}`"
+				},
+				"quickhelp.addToContextMenu":{
+					"type":"boolean",
+					"default": "false",
+					"description": "Add the \"Search Online\" command to the context menu."
 				}
 			}
+		},
+		"menus": {
+			"editor/context": [
+				{
+                    "command": "quickhelp.search",
+                    "group": "search",
+                    "when": "editorTextFocus && config.quickhelp.addToContextMenu"
+                }
+			]
 		},
 		"commands": [
 			{
