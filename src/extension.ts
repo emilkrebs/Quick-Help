@@ -1,4 +1,3 @@
-import * as fs from 'fs';
 import * as vscode from 'vscode';
 import { ExternalBrowser } from './externalBrowser';
 
@@ -6,11 +5,6 @@ export function activate(context: vscode.ExtensionContext) {
 	let externalBrowser: ExternalBrowser = new ExternalBrowser(context);
 
 	console.log('Quickhelp is now active!');
-
-	// create storage directory
-	if (!fs.existsSync(context.globalStorageUri.fsPath)) {
-		fs.mkdirSync(context.globalStorageUri.fsPath, { recursive: true });
-	}
 
 	context.subscriptions.push(vscode.commands.registerCommand('quickhelp.search', () => {
 		var editor = vscode.window.activeTextEditor;
