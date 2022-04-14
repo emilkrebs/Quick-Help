@@ -27,10 +27,8 @@ This extension contributes the following settings:
 
 * `quickhelp.searchEngine`: The Search Engine you want to use.
 ( Google, DuckDuckGo, Bing, Ecosia, StackOverflow )
-
 * `quickhelp.searchPattern`: Your search pattern. Leave blank to use existing. Example: https://de.wikipedia.org/wiki/{term}
-
-![Engine](https://user-images.githubusercontent.com/68400102/162857553-f062004f-92fc-4f14-80c8-d69a9688f779.png)
+* `quickhelp.addToContextMenu`: Add the \"Search Online\" command to the context menu.
 
 ## Showcase
 
