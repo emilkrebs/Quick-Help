@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.3
+### Added 
+- "Search Online" to context menu as option
+
 ## 1.1.2
 ### Added
 - Changes to Readme
