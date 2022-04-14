@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.4
+### Fixed
+- Extension does not update
+
 ## 1.1.3
 ### Added 
 - "Search Online" to context menu as option
