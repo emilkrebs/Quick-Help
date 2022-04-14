@@ -43,7 +43,7 @@
 				},
 				"quickhelp.addToContextMenu":{
 					"type":"boolean",
-					"default": "false",
+					"default": false,
 					"description": "Add the \"Search Online\" command to the context menu."
 				}
 			}
