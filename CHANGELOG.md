@@ -4,6 +4,8 @@
 ### Added 
 - "Search Online" to context menu as option
 
+![Search Online Menu](https://user-images.githubusercontent.com/68400102/163396443-53808039-d345-461c-9f76-5c8d795c7bdf.png)
+
 ## 1.1.2
 ### Added
 - Changes to Readme
