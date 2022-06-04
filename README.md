@@ -17,7 +17,8 @@
 
 With this simple extension, you can look up your problems instantly or manually on the internet.
 
-[Marketplace](https://marketplace.visualstudio.com/items?itemName=EmilKrebs.quickhelp)
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=EmilKrebs.quickhelp)  
+[GitHub](https://github.com/emilkrebs/Quick-Help/)
 
 ## Commands
 * `Search Online`: Search something up online.
