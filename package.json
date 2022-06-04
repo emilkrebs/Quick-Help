@@ -4,8 +4,8 @@
 	"description": "Look up your problems. Fast.",
 	"version": "1.1.4",
 	"author": "Emil Krebs",
-	"publisher": "EmilKrebs",
-	"icon": "icon.png",
+	"publisher": "Emil Krebs",
+	"icon": "./resources/icon_128.png",
 	"repository": "https://github.com/emilkrebs/Quick-Help",
 	"engines": {
 		"vscode": "^1.66.0"
