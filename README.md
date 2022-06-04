@@ -1,6 +1,6 @@
 <div id="logo" align="center">
   <a href="https://github.com/emilkrebs/quick-help" target="_blank" rel="noopener noreferrer">
-    <img width="128" alt="Quick Help Logo" src="https://raw.githubusercontent.com/emilkrebs/Quick-Help/main/icon.png">
+    <img width="164" alt="Quick Help Logo" src="https://github.com/emilkrebs/Quick-Help/raw/main/resources/icon.png">
   </a>
 </div>
 <br>
