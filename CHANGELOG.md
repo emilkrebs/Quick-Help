@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.5 - 1.1.8
+### Fixed
+- searchEngines.json did not copy to out
+### Added
+- new Logo 
+- GitHub link to README.md
+
 ## 1.1.4
 ### Fixed
 - Extension does not update
