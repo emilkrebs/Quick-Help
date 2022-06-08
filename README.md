@@ -23,13 +23,13 @@ With this simple extension, you can look up your problems instantly or manually 
 ## Commands
 * `Search Online`: Search something up online.
 * `Quick Search`: Select an error and look it up.
+
 ## Extension Settings
 This extension contributes the following settings:
-
 * `quickhelp.searchEngine`: The Search Engine you want to use.
 ( Google, DuckDuckGo, Bing, Ecosia, StackOverflow )
 * `quickhelp.searchPattern`: Your search pattern. Leave blank to use existing. Example: https://de.wikipedia.org/wiki/{term}
-* `quickhelp.addToContextMenu`: Add the \"Search Online\" command to the context menu.
+* `quickhelp.addToContextMenu`: Add the \"Search Online\" command to the right click context menu.
 
 ## Showcase
 
